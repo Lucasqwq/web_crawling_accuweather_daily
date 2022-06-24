@@ -17,7 +17,7 @@ jobs:
     - name: generate keys
       run: |
         echo -n '${{ secrets.FIREBASE2_KEY }}' > firebase_key.json
-        echo -n '${{ secrets.apikey_KEY }}' > apikey.txt
+        echo -n '${{ secrets.API_KEY }}' > apikey.txt
     - name: upgrade pip
       run: |
         python -m pip install --upgrade pip
