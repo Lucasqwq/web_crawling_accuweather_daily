@@ -1,2 +1,2 @@
-# web_crawling_1
+# web_crawling_accuweather_daily
 Hola~
